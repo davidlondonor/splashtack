@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Tinos&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Tinos;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+p{
+    text-align: center;
+    
+}
+
+
+/*top-panel*/
+
+.top-panel{
+    padding: 20px;
+    background:#103047;
+}
+
+
+/*top-panel*/
+
+
+.swipe{
+    display: flex;
+}
+
+/*courses*/
+
+.courseContainer{
+    background: #103047;
+    color: #fff;
+    width: 20%;
+}
+
+
+
+.courses{
+    background: #0c2435;
+}
+
+
+.courses .course a{
+    margin: auto;
+    position: relative;
+    transition: .5s;
+    display: block;
+    text-transform: lowercase;
+    padding: 10px;
+}
+
+
+.courses .course a:hover{
+    background:#103047;
+    color: rgb(11, 248, 11) !important;
+}
+
+.courses .course.html a{
+    color: #f06529;
+}
+
+.courses .course.css a{
+    color: #2965f1;
+
+}
+
+.courses .course.sass a{
+    color: #CD6799;
+}
+
+.courses .course.javascript a{
+    color: #F0DB4F;
+
+}
+
+.courses .course.github a{
+    color: #F1502F;
+
+}
+
+.courses .course.typescript a{
+    color: #007acc;
+
+}
+
+.courses .course.react a{
+    color: #61DBFB;
+}
+
+.courses .course.angular a{
+    color: #B52E31;
+}
+
+.courses .course.vue a{
+    color: #41B883;
+}
+
+.courses .course.php a{
+    color: #787CB5;
+}
+
+.courses .course.sql a{
+    color: #00A4EF;
+}
+
+.courses .course.node a{
+    color: #68A063;
+}
+
+.courses .course.mysql a{
+    color: #00758F;
+}
+
+.courses .course.mongodb a{
+    color: #4DB33D;
+}
+
+
+/*courses*/
+
+
+
+/*practice*/
+.practice{
+    background: #0e2c42;
+    color: #fff;   
+    width: 100%;
+    margin: auto;
+}
+
+.projectContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectContainer > div{
+    width: 33.33%;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.projectContainer h3{
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.project a{
+    padding: 5px;
+    display: block;
+    text-align: center;
+    transition: .5s;
+}
+
+.htmlAndCssPractice{
+    color: #fff;
+    background: #f15614;
+}
+
+.htmlAndCssPractice a:hover{
+    background: #ff5c16;
+    color: #000;
+}
+
+.sassPractice{
+    background: #CD6799;;
+}
+
+.javascriptPractice{
+    background: #F0DB4F;
+    color: #333;
+    
+}
+
+.javascriptPractice h3{
+    color: #333;
+}
+
+.javascriptPractice a{
+    color: #333;
+}
+
+.gitPractice{
+    background: #F1502F;
+}
+
+.githubPractice a:hover{
+    background: #F1502F;
+}
+
+.typescriptPractice{
+    background: #007acc;
+}
+
+.reactPractice{
+    background: #61DBFB;
+}
+
+.reactPractice h3{
+    color: #000;
+}
+
+.reactPractice a{
+    color: #000;
+}
+
+
+.angularPractice{
+    background: #B52E31;
+}
+
+.vuePractice{
+    background: #41B883;
+}
+
+.phpPractice{
+    background: #787CB5;
+}
+
+.sqlPractice{
+    background: #00A4EF;
+}
+
+.nodePractice{
+    background: #68A063;
+}
+
+.mysqlPractice{
+    background: #00758F;
+}
+
+.mongodbPractice{
+    background: #4DB33D;
+}
+
+
+/*practice*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*htmlCourse*/
+
+#html{
+    background: #f06529;
+}
+
+/*htmlCourse*/
+
+
+/*cssCourse*/
+
+#css{
+    background: #2965f1;
+}
+
+/*cssCourse*/
+
+/*sassCourse*/
+
+#sass{
+    background: #CD6799;;
+}
+
+/*sassCourse*/
+
+
+/*javascriptCourse*/
+
+#javascript{
+    background: #F0DB4F;
+}
+
+/*javascriptCourse*/
+
+
+/*gitCourse*/
+
+#git{
+    background: #F1502F;
+}
+
+/*gitCourse*/
+
+
+/*typescriptCourse*/
+
+#typescript{
+    background: #007acc;
+}
+
+/*typescriptCourse*/
+
+/*reactCourse*/
+
+#react{
+    background: #61DBFB;
+}
+
+/*reactCourse*/
+
+/*angularCourse*/
+
+#angular{
+    background: #B52E31;
+}   
+
+/*angularCourse*/
+
+/*vueCourse*/
+
+#vue{
+    background: #41B883;
+}
+
+/*vueCourse*/
+
+/*phpCourse*/
+
+#php{
+    background: #787CB5;
+}
+
+/*phpCourse*/
+
+
+/*sqlCourse*/
+
+#sql{
+    background: #00A4EF;;
+}
+
+/*sqlCourse*/
+
+/*nodeCourse*/
+
+#node{
+    background: #68A063;
+}
+
+/*nodeCourse*/
+
+/*mysqlCourse*/
+
+#mysql{
+    background: #00758F;;
+}
+
+/*mysqlCourse*/
+
+/*mongodbCourse*/
+
+#mongodb{
+    background: #4DB33D;
+}
+
+/*mongodbCourse*/
