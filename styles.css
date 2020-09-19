@@ -159,7 +159,7 @@ p{
 
 .projectContainer h3{
     text-align: left;
-    padding: 20px;
+    padding: 10px;
     color: #ffffff;
 }
 
@@ -451,7 +451,9 @@ p{
 }
 
 
-
+.textContainer p{
+    text-align: left;
+}
 
 /*textContainer*/
 
