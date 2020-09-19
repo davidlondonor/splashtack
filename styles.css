@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: Tinos;
+    font-family: monospace;
 }
 
 a{
@@ -453,10 +453,26 @@ p{
 
 .textContainer p{
     text-align: left;
+    padding: 20px 0px;
 }
 
 /*textContainer*/
 
+
+
+
+
+.code{
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.code h1, .code h2, .code h3, .code h4, .code h5, code h6{
+    margin-bottom: 10px;
+}
 
 
 
