@@ -527,6 +527,118 @@ p{
 }
 
 
+
+/*colores*/
+
+.tomato{
+    background: tomato;
+}
+
+.orange{
+    background: orange;
+}
+
+.dodgerblue{
+    background: dodgerblue;
+}
+
+.mediumseagreen{
+    background: mediumseagreen;
+}
+
+.gray{
+    background: gray;
+}
+
+.rojoRgb{
+    background: rgb(255, 0, 0);
+}
+
+.azulRgb{
+    background: rgb(0, 0, 255);
+}
+
+.verdeRgb{
+    background: rgb(60, 179, 113);
+}
+
+.violetaRgb{
+    background: rgb(238, 130, 238);
+}
+
+.naranjaRgb{
+    background: rgb(255, 165, 0);
+}
+
+.rojoHex{
+    background: #ff0000;
+}
+
+.azulHex{
+    background: #0000ff;
+}
+
+.verdeHex{
+    background: #3cb371;
+}
+
+.violetaHex{
+    background: #ee82ee;
+}
+
+.naranjaHex{
+    background: #ffa500;
+}
+
+.rojoHsl{
+    background: hsl(0, 100%, 50%);
+}
+
+.azulHsl{
+    background: hsl(240, 100%, 50%)
+}
+
+.verdeHsl{
+    background: hsl(147, 50%, 47%)
+}
+
+.violetaHsl{
+    background: hsl(300, 76%, 72%)
+}
+
+.naranjaHsl{
+    background: hsl(39, 100%, 50%)
+}
+
+
+
+
+/*colores*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*responsive*/
 
 
