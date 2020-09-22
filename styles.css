@@ -445,7 +445,7 @@ p{
 .textContainer{
     background: #fff;
     border-radius: 5px;
-    width: 80%;
+    width: 60%;
     margin: 20px auto;
     padding: 20px;
 }
@@ -455,7 +455,7 @@ p{
 }
 
 .textContainer > p{
-    text-align: left;
+    text-align: center;
     padding: 20px 0px;
 }
 
@@ -609,6 +609,16 @@ p{
 .naranjaHsl{
     background: hsl(39, 100%, 50%)
 }
+
+.center{
+    margin: 20px auto;
+}
+
+.image{
+    
+    width: 100%;
+}
+
 
 
 
