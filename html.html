@@ -8,6 +8,13 @@
 </head>
 <body id="html">
 
+    <div class="header">
+        
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+
     <section class="textContainer">
         <h2>Introducción</h2>
         <div class="center">
@@ -25,12 +32,12 @@
         </div>
         
         <div class="code" id="htmlCode">
-            <h1>&lt;h1&gt;Encabezado h1&lt;/h1&gt;</h1>
-            <h2>&lt;h2&gt;Encabezado h2&lt;/h2&gt;</h2>
-            <h3>&lt;h3&gt;Encabezado h3&lt;/h3&gt;</h3>
-            <h4>&lt;h4&gt;Encabezado h4&lt;/h4&gt;</h4>
-            <h5>&lt;h5&gt;Encabezado h5&lt;/h5&gt;</h5>
-            <h6>&lt;h6&gt;Encabezado h6&lt;/h6&gt;</h6>
+            <div class="space"><h1>&lt;h1&gt;Encabezado h1&lt;/h1&gt;</h1></div>
+            <div class="space"><h2>&lt;h2&gt;Encabezado h2&lt;/h2&gt;</h2></div>
+            <div class="space"><h3>&lt;h3&gt;Encabezado h3&lt;/h3&gt;</h3></div>
+            <div class="space"><h4>&lt;h4&gt;Encabezado h4&lt;/h4&gt;</h4></div>
+            <div class="space"><h5>&lt;h5&gt;Encabezado h5&lt;/h5&gt;</h5></div>
+            <div class="space"><h6>&lt;h6&gt;Encabezado h6&lt;/h6&gt;</h6></div>
         </div>
         
         <div class="result">
@@ -38,12 +45,12 @@
         </div>
 
         <div class="resultado">
-            <h1>Encabezado h1</h1>
-            <h2>Encabezado h2</h2>
-            <h3>Encabezado h3</h3>
-            <h4>Encabezado h4</h4>
-            <h5>Encabezado h5</h5>
-            <h6>Encabezado h6</h6>
+            <div class="space"><h1>Encabezado h1</h1></div>
+            <div class="space"><h2>Encabezado h2</h2></div>
+            <div class="space"><h3>Encabezado h3</h3></div>
+            <div class="space"><h4>Encabezado h4</h4></div>
+            <div class="space"><h5>Encabezado h5</h5></div>
+            <div class="space"><h6>Encabezado h6</h6></div>
         </div>
     </section>
     
@@ -438,40 +445,140 @@
 
     <section class="textContainer">
         <h2>Imágenes</h2>
-        <p>HTML es el lenguaje de marcado estándar para crear páginas web.</p>
-        <h4>Ejemplo:</h4>
-        <div class="code" id="htmlCode">
-        
+        <p>Las imágenes pueden mejorar el diseño y la apariencia de una página web.</p>
+        <div class="example">
+            <h4>Ejemplo:</h4>
         </div>
-        <h4>Ejemplo:</h4>
-        <div class="result">
+        <div class="code" id="htmlCode">
+            &lt;img src="./imagen.jpg" alt="imagendebosque"&gt;
+        </div>
         
+        <div class="result">
+            <h4>Resultado:</h4>
+        </div>
+        <div class="resultado">
+            <img src="./images/imagen.jpg" alt="imagendebosque">
         </div>
     </section>
 
     <section class="textContainer">
         <h2>Tablas</h2>
-        <p>HTML es el lenguaje de marcado estándar para crear páginas web.</p>
-        <h4>Ejemplo:</h4>
-        <div class="code" id="htmlCode">
-        
+        <p>Las tablas te permiten organizar los datos en filas y columnas.</p>
+        <div class="example">
+            <h4>Ejemplo:</h4>
         </div>
-        <h4>Ejemplo:</h4>
-        <div class="result">
+        <div class="code" id="htmlCode">
+            <div class="space">&lt;table&gt;</div><br>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Compañía&lt;/th&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Contacto&lt;/th&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;País&lt;/th&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;</div><br>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Alfreds Futterkiste&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Maria Anders&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Alemania&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;</div><br>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Centro comercial Moctezuma&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Francisco Chang&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;México&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;</div><br>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Ernst Handel&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Roland Mendel&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Austria&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;</div><br>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Island Trading&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Helen Bennett&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;UK&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;</div><br>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Laughing Bacchus Winecellars&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Yoshi Tannamuri&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Canada&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;</div><br>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Magazzini Alimentari Riuniti&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Giovanni Rovelli&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Italia&lt;/td&gt;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;</div>
+            <div class="space">&lt;/table&gt;</div><br>
+            <div class="space">&lt;style&gt;</div><br>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;td, th {</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border: 1px solid #f0aa29;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;padding: 8px;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transition: .5s;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cursor: pointer;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;}</div><br>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;td:hover {</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background: #f0aa29;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;}</div><br>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;tr:nth-child(even) {</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-color: #f0aa29;</div>
+            <div class="space">&nbsp;&nbsp;&nbsp;&nbsp;}</div><br>
+            <div class="space">&lt;/style&gt;</div>
+        </div>
         
+        <div class="result">
+            <h4>Resultado:</h4>
+        </div>
+        <div class="resultado">
+            <table>
+                <tr>
+                    <th>Compañía</th>
+                    <th>Contacto</th>
+                    <th>País</th>
+                </tr>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Alemania</td>
+                </tr>
+                <tr>
+                    <td>Centro comercial Moctezuma</td>
+                    <td>Francisco Chang</td>
+                    <td>México</td>
+                </tr>
+                <tr>
+                    <td>Ernst Handel</td>
+                    <td>Roland Mendel</td>
+                    <td>Austria</td>
+                </tr>
+                <tr>
+                    <td>Island Trading</td>
+                    <td>Helen Bennett</td>
+                    <td>UK</td>
+                </tr>
+                <tr>
+                    <td>Laughing Bacchus Winecellars</td>
+                    <td>Yoshi Tannamuri</td>
+                    <td>Canada</td>
+                </tr>
+                <tr>
+                    <td>Magazzini Alimentari Riuniti</td>
+                    <td>Giovanni Rovelli</td>
+                    <td>Italia</td>
+                </tr>
+            </table>
         </div>
     </section>
 
     <section class="textContainer">
         <h2>Listas</h2>
-        <p>HTML es el lenguaje de marcado estándar para crear páginas web.</p>
-        <h4>Ejemplo:</h4>
+        <p>Las listas te permiten agrupar un conjunto de elementos relacionados en listas.</p>
+        <div class="example">
+            <h4>Ejemplo:</h4>
+        </div>
         <div class="code" id="htmlCode">
         
         </div>
-        <h4>Ejemplo:</h4>
         <div class="result">
-        
+            <h4>Resultado:</h4>
+        </div>
+        <div class="resultado">
+            
         </div>
     </section>
 
@@ -870,7 +977,7 @@
         <p>HTML es el lenguaje de marcado estándar para crear páginas web.</p>
         <h4>Ejemplo:</h4>
         <div class="code" id="htmlCode">
-        
+            
         </div>
         <h4>Ejemplo:</h4>
         <div class="result">
@@ -878,4 +985,7 @@
         </div>
     </section>
 
+    <!-- scripts -->
+    <script src="./script.js"></script>
+</body>
 </html>
