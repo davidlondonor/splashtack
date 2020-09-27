@@ -8,7 +8,6 @@
 
 body{
     font-family: 'Roboto';
-    font-size: 1.3em;
 }
 
 a{
@@ -38,8 +37,11 @@ a{
 
 .progress-bar {
   height: 8px;
-  background: #ca371d;
   width: 0%;
+}
+
+.htmlBar{
+    background: #ff7f48;
 }
 
 /*scroll-indicator*/
