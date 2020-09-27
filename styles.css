@@ -729,6 +729,77 @@ tr:nth-child(even) {
 /*tablas*/
 
 
+.londres{
+    background: #02ff4e;
+    
+}
+
+.paris{
+    background: #0252ff;
+    color: #fff;
+}
+
+.tokio{
+    background: #ff029e;
+    color: #fff;
+}
+
+.pequeno{
+    font-size: .8em;
+}
+
+.mediano{
+    font-size: 1.3em;
+}
+
+.grande{
+    font-size: 2em;
+}
+
+#titulo{
+    background: skyblue;
+    padding: 10px;
+    text-align: center;
+}
+
+#parrafo{
+    padding: 0;
+    color: skyblue;
+    background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*responsive*/
 
 
