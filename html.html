@@ -767,12 +767,12 @@
 
     <section class="textContainer">
         <h2>Iframes</h2>
-        <p>HTML es el lenguaje de marcado estándar para crear páginas web.</p>
+        <p>Un elemento <b>iframe</b> se utiliza para mostrar un sitio web dentro de un sitio web.</p>
         <div class="example">
             <h4>Ejemplo:</h4>
         </div>
         <div class="code" id="htmlCode">
-        
+        &lt;iframe src="./html.html" title="Página HTML" width="100%" height="300px"&gt;&lt;/iframe&gt;
         </div>
         
         <div class="result">
@@ -780,47 +780,72 @@
         </div>
 
         <div class="resultado">
-            
+            <iframe src="./html.html" title="Página HTML" width="100%" height="300px"></iframe>
         </div>
-        
+
     </section>
 
     <section class="textContainer">
         <h2>Javascript</h2>
-        <p>HTML es el lenguaje de marcado estándar para crear páginas web.</p>
-        <h4>Ejemplo:</h4>
-        <div class="code" id="htmlCode">
-        
+        <p>JavaScript hace que las páginas web sean dinámicas e interactivas.</p>
+        <div class="example">
+            <h4>Ejemplo:</h4>
         </div>
-        <h4>Ejemplo:</h4>
-        <div class="result">
+        <div class="code" id="htmlCode">
+            <div class="space">&lt;h1&gt;Mi primer JavaScript&lt;/h1&gt;</div><br>
+            <div class="space">&lt;button type="button" onclick="document.getElementById('demo').innerHTML = Date()"&gt;
+            Click me to display Date and Time&lt;/button&gt;</div><br>
+            &lt;p id="demo"&gt;&lt;/p&gt;
+        </div>
         
+        <div class="result">
+            <h4>Resultado:</h4>
+        </div>
+        <div class="resultado">
+            <div class="space"><h1>Mi primer JavaScript</h1></div><br>
+            <div class="space"><button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Mostrar fecha actual</button></div><br>
+            <p id="demo"></p>
         </div>
     </section>
 
     <section class="textContainer">
         <h2>Rutas de archivos</h2>
-        <p>HTML es el lenguaje de marcado estándar para crear páginas web.</p>
-        <h4>Ejemplo:</h4>
+        <p>Una ruta de archivo describe la ubicación de un archivo en la estructura de carpetas de un sitio web.</p>
+        <div class="example">
+            <h4>Ejemplo:</h4>
+        </div>
         <div class="code" id="htmlCode">
-        
+            <div class="space">&lt;img src="imagen.jpg"&gt;</div>
+            <div class="space">El archivo "imagen.jpg" se encuentra en la misma carpeta que la página actual.</div><br>
+            <div class="space">&lt;img src="imagenes/imagen.jpg"&gt;</div>
+            <div class="space">El archivo "imagen.jpg" se encuentra la carpeta de imágenes.</div><br>
+            <div class="space">&lt;img src="/imagenes/imagen.jpg"&gt;</div>
+            <div class="space">El archivo "imagen.jpg" se encuentra la carpeta de imágenes en la raíz de la página web actual.</div><br>
+            <div class="space">&lt;img src="../imagen.jpg"&gt;</div>
+            El archivo "imagen.jpg" se encuentra en la carpeta un nivel más arriba de la carpeta actual.
         </div>
-        <h4>Ejemplo:</h4>
-        <div class="result">
-        
-        </div>
+        <p>Es una buena práctica utilizar rutas relativas (si es posible).</p>
+        <p>Cuando utilices rutas relativas, tus páginas web no estarán vinculadas a la URL base actual. Todos los enlaces funcionarán en tu computadora (localhost) y también en tu dominio público futuro.</p>
     </section>
 
     <section class="textContainer">
         <h2>Etiqueta Head</h2>
-        <p>HTML es el lenguaje de marcado estándar para crear páginas web.</p>
-        <h4>Ejemplo:</h4>
-        <div class="code" id="htmlCode">
-        
+        <p>La etiqueta &lt;<b>head</b>&gt; es el contenedor de los elementos: &lt;<b>title</b>&gt;, &lt;<b>style</b>&gt;, &lt;<b>meta</b>&gt;, &lt;<b>link</b>&gt;, &lt;<b>script</b>&gt;, y &lt;<b>base</b>&gt;.</p>
+        <p>El elemento &lt;<b>head</b>&gt; es un contenedor de metadatos y se coloca entre la etiqueta &lt;<b>html</b>&gt; y la etiqueta &lt;<b>body</b>&gt;.</p>
+        <p>Los metadatos definen el título del documento, el conjunto de caracteres, los estilos, los scripts y otra metainformación.</p>
+        <div class="example">
+            <h4>Ejemplo:</h4>
         </div>
-        <h4>Ejemplo:</h4>
-        <div class="result">
-        
+        <div class="code" id="htmlCode">
+            <div class="space">Define el juego de carácteres que utilizaras en este caso será la codificación UTF-8:</div><br>
+            <div class="space">&lt;meta charset="UTF-8"&gt;</div><br>
+            <div class="space">Define las palabras claves para los motores de búsqueda:</div>
+            <div class="space">&lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt;</div><br>
+            <div class="space">Define una descripción para tu página web.</div><br>
+            <div class="space">&lt;meta name="description" content="Free Web tutorials"&gt;</div><br>
+            <div class="space">Define el autor de una página web:</div><br>
+            <div class="space">&lt;meta name="author" content="John Doe"&gt;</div>
+
         </div>
     </section>
 

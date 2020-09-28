@@ -183,7 +183,7 @@ a{
 }
 
 .projectContainer h3{
-    text-align: left;
+    text-align: center;
     padding: 10px;
     color: #ffffff;
 }
@@ -191,8 +191,8 @@ a{
 .project a{
     padding: 10px;
     display: block;
-    
     transition: .5s;
+    
 }
 
 .htmlAndCssPractice{
@@ -561,10 +561,6 @@ a{
     
 }
 
-.resultado p{
-    text-align: left;
-    padding: 5px;
-}
 
 /*resultado*/
 
