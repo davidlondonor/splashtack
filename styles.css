@@ -7,6 +7,23 @@
     
 }
 
+/* header bg changes */
+.navbar{
+    background-color: rgb(59, 24, 105)
+}
+
+
+/* Index Footer center aligment*/
+footer{
+    text-align: center;
+}
+
+header{
+    font-size: 1.3em;
+}
+.navbar-brand{
+    font-size: 1.5em;
+}
 body{
     font-family: 'Roboto';
     font-size: 1.3em;
