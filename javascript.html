@@ -23,10 +23,9 @@
         </div>
         <h1>Introducción</h1>
         <p>JavaScript es el lenguaje de programación más popular del mundo.</p>
-        <p>Javascript fue creado por <b>Brendan Eich</b> en <em>1995</em> y se convirtió en un estándar ECMA en 1997.</p>
+        <p>Javascript fue creado por <b>Brendan Eich</b> en <em>1995</em> y se convirtió en un estándar ECMA en <em>1997</em>.</p>
         <p>Javascript y Java son lenguajes completamente diferentes, tanto en concepto como en diseño.</p>
         <p>ECMA-262 es el nombre oficial del estándar. ECMAScript es el nombre oficial del idioma.</p>
-       
         <p>JavaScript te permite cambiar el contenido de los elementos (etiquetas) HTML.</p><br>
         <div class="multi multiJs   ">
             <div class="example">
@@ -241,6 +240,7 @@
         <br><br><br>
         
         <h3>Usando document.write()</h3>
+        <p>Para propositos de prueba, es conveniente utilizar document.write().</p>
         <br>
         
         <div class="multi multiJs">
@@ -347,845 +347,1110 @@
     </section>
 
     <section class="textContainer">
-        <h3>Declaraciones</h3>
-        <p>Todo el código de </p>
-    
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <h2>Declaraciones</h2>
+        <p>Un programa es una lista de "instrucciones" que una computadora debe ejecutar.</p>
+        <p>En un lenguaje de programación, estas instrucciones se denominan <b>declaraciones</b>.</p>
+        <p>Las declaraciones se ejecutan, una a una, en el mismo orden en que están escritas.</p>
+        <p>Los programas de JavaScript son ejecutados por el navegador web.</p>
+        <br>
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+
+                <div class="space">&lt;!DOCTYPE html&gt;</div>
+                <div class="space">&lt;html&gt;</div>
+                <div class="space">&lt;body&gt;</div>
+                <div class="space">&lt;h2&gt;JavaScript Statements&lt;/h2&gt;</div>
+                <div class="space">&lt;p&gt;JavaScript statements are separated by semicolons.&lt;/p&gt;</div>
+                <div class="space">&lt;p id="demo1"&gt;&lt;/p&gt;</div>
+                <div class="space">&lt;script&gt;</div>
+                <div class="space">var a, b, c;</div>
+                <div class="space">a = 5;</div>
+                <div class="space">b = 6;</div>
+                <div class="space">c = a + b;</div>
+                <div class="space">&lt;script&gt;</div>
+                <div class="space">document.getElementById("demo1").innerHTML = c;</div>
+                <div class="space">&lt;/script&gt;</div>
+                <div class="space">&lt;body&gt;</div>
+                <div class="space">&lt;/html&gt;</div>
+                <div class="space"></div>
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+                <p id="demo10"></p>
+                
+                <script>
+                    var a, b, c;
+                    a = 5;
+                    b = 6;
+                    c = a + b;
+                    document.getElementById("demo10").innerHTML = c;
+                </script>
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Sintaxis</h3>
-        <p>Todo el código de </p>
-    
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <h2>Comentarios</h2>
+        <p>Los comentarios se pueden utilizar para explicar el código y hacerlo más legible.</p>
+        <p>También se pueden utilizar para evitar la ejecución de un código.</p><br>
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+            
+            <div class="code" id="htmlCode">
+                <div class="space">&lt;!DOCTYPE html&gt;</div>
+                <div class="space">&lt;html&gt;</div>
+                <div class="space">&lt;body&gt;</div>
+                <div class="space">&lt;h1 id="myH"&gt;&lt;/h1&gt;</div>
+                <div class="space">&lt;p id="myP"&gt;&lt;/p&gt;</div>
+                <div class="space">&lt;script&gt;</div><br>
+                <div class="space">// Este es un comentario de una línea</div><br>
+                <div class="space">/*</div>
+                <div class="space">Este es un</div>
+                <div class="space">Comentario de</div>
+                <div class="space">Múltiples líneas</div>
+                <div class="space">/*</div><br>
+                <div class="space">document.getElementById("myH").innerHTML = "Comentarios";</div>
+                <div class="space">document.getElementById("myP").innerHTML = "Mi primer párrafo";</div><br>
+                <div class="space">&lt;/script&gt;</div>
+                <div class="space">&lt;/body&gt;</div>
+                <div class="space">&lt;/html&gt;</div>
+        
+            </div>
+       
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+            
+            <div class="resultado">
+                <h1 id="myH"></h1>
+                <p id="myP"></p>
+                <script>
+
+                        document.getElementById("myH").innerHTML = "Comentarios";
+                        document.getElementById("myP").innerHTML = "Mi primer párrafo";
+                </script>
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Comentarios</h3>
-        <p>Todo el código de </p>
-    
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <h2>Variables</h2>
+        <p>Las variables de JavaScript son contenedores para almacenar valores de datos.</p><br>
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+
+                <div class="space">&lt;!DOCTYPE html&gt;</div>
+                <div class="space">&lt;html&gt;</div>
+                <div class="space">&lt;body&gt;</div>
+                <div class="space">&lt;h2&gt;JavaScript Variables&lt;/h2&gt;</div>
+                <div class="space">&lt;p&gt;In this example, x, y, and z are variables.&lt;/p&gt;</div>
+                <div class="space">&lt;p id="demo11">&lt;/p&gt;</div>
+                <div class="space">&lt;script&gt;</div>
+                <div class="space">var x = 5;</div>
+                <div class="space">var y = 6;</div>
+                <div class="space">var z = x + y;</div>
+                <div class="space">document.getElementById("demo11").innerHTML =</div>
+                <div class="space">"El valor de z es: " + z;</div>
+                <div class="space">&lt;/script&gt;</div>
+                <div class="space">&lt;/body&gt;</div>
+                <div class="space">&lt;/html&gt;</div>
+
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+               
+                <p id="demo11"></p>
+                
+                <script>
+                    var x = 5;
+                    var y = 6;
+                    var z = x + y;
+                    document.getElementById("demo11").innerHTML =
+                        "El valor de z es: " + z;
+                </script>
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Variables</h3>
-        <p>Todo el código de </p>
-    
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <h2>Aritmética</h2>
+        <p>Los operadores aritméticos realizan operaciones con números.</p>
+        <p>No debes definir dos veces la misma variable, este código es solo para pruebas.</p>
+        <br>
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                
+                &lt;body&gt;
+                                
+                    &lt;p id="demo12"&gt;&lt;/p&gt;
+                    &lt;p id="demo13"&gt;&lt;/p&gt;
+                    &lt;p id="demo14"&gt;&lt;/p&gt;
+                    &lt;p id="demo15"&gt;&lt;/p&gt;
+                    &lt;p id="demo16"&gt;&lt;/p&gt;
+                    &lt;p id="demo17"&gt;&lt;/p&gt;
+                    &lt;p id="demo18"&gt;&lt;/p&gt;
+                    &lt;p id="demo19"&gt;&lt;/p&gt;
+                    &lt;p id="demo20"&gt;&lt;/p&gt;
+                    &lt;p id="demo21"&gt;&lt;/p&gt;
+                    &lt;p id="demo22"&gt;&lt;/p&gt;
+                    &lt;p id="demo23"&gt;&lt;/p&gt;
+                    &lt;p id="demo24"&gt;&lt;/p&gt;
+                    &lt;p id="demo25"&gt;&lt;/p&gt;
+                
+                    &lt;script&gt;
+
+                    var x = 100 + 50;
+                    document.getElementById("demo12").innerHTML = x;
+                    
+                    var a = 3;
+                    var x = (100 + 50) * a;
+                    document.getElementById("demo13").innerHTML = x;
+                    
+                    var x = 5;
+                    var y = 2;
+                    var z = x + y;
+                    document.getElementById("demo14").innerHTML = z;
+                    
+                    var x = 5;
+                    var y = 2;
+                    var z = x - y;
+                    document.getElementById("demo15").innerHTML = z;
+                    
+                    var x = 5;
+                    var y = 2;
+                    var z = x * y;
+                    document.getElementById("demo16").innerHTML = z;
+                    
+                    var x = 5;
+                    var y = 2;
+                    var z = x / y;
+                    document.getElementById("demo17").innerHTML = z;
+                    
+                    var x = 5;
+                    var y = 2;
+                    var z = x % y;
+                    document.getElementById("demo18").innerHTML = z;
+                    
+                    var x = 5;
+                    x++;
+                    var z = x;
+                    document.getElementById("demo19").innerHTML = z;
+                    
+                    var x = 5;
+                    x--;
+                    var z = x;
+                    document.getElementById("demo20").innerHTML = z;
+                    
+                    var x = 5;
+                    document.getElementById("demo21").innerHTML = x ** 2;
+                    
+                    var x = 5;
+                    document.getElementById("demo22").innerHTML = Math.pow(x, 2);
+                    
+                    document.getElementById("demo23").innerHTML = 100 + 50 * 3;
+                    
+                    document.getElementById("demo24").innerHTML = (100 + 50) * 3;
+                    
+                    document.getElementById("demo25").innerHTML = 100 + 50 - 3;
+
+                    &lt;/script&gt;
+                
+                &lt;/body&gt;
+                
+                &lt;/html&gt;
+
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+
+                <p id="demo12"></p>
+                <p id="demo13"></p>
+                <p id="demo14"></p>
+                <p id="demo15"></p>
+                <p id="demo16"></p>
+                <p id="demo17"></p>
+                <p id="demo18"></p>
+                <p id="demo19"></p>
+                <p id="demo20"></p>
+                <p id="demo21"></p>
+                <p id="demo22"></p>
+                <p id="demo23"></p>
+                <p id="demo24"></p>
+                <p id="demo25"></p>
+                
+                <script>
+                    var x = 100 + 50;
+                    document.getElementById("demo12").innerHTML = x;
+
+                    var a = 3;
+                    var x = (100 + 50) * a;
+                    document.getElementById("demo13").innerHTML = x;
+
+                    var x = 5;
+                    var y = 2;
+                    var z = x + y;
+                    document.getElementById("demo14").innerHTML = z;
+
+                    var x = 5;
+                    var y = 2;
+                    var z = x - y;
+                    document.getElementById("demo15").innerHTML = z;
+                    
+                    var x = 5;
+                    var y = 2;
+                    var z = x * y;
+                    document.getElementById("demo16").innerHTML = z;
+
+                    var x = 5;
+                    var y = 2;
+                    var z = x / y;
+                    document.getElementById("demo17").innerHTML = z;
+
+                    var x = 5;
+                    var y = 2;
+                    var z = x % y;
+                    document.getElementById("demo18").innerHTML = z;
+
+                    var x = 5;
+                    x++;
+                    var z = x;
+                    document.getElementById("demo19").innerHTML = z;
+
+                    var x = 5;
+                    x--;
+                    var z = x;
+                    document.getElementById("demo20").innerHTML = z;
+
+                    var x = 5;
+                    document.getElementById("demo21").innerHTML = x ** 2;
+
+                    var x = 5;
+                    document.getElementById("demo22").innerHTML = Math.pow(x, 2);
+
+                    document.getElementById("demo23").innerHTML = 100 + 50 * 3;
+
+                    document.getElementById("demo24").innerHTML = (100 + 50) * 3;
+
+                    document.getElementById("demo25").innerHTML = 100 + 50 - 3;
+
+                </script>
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Operadores</h3>
+        <h2>Asignación</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Aritmética</h3>
+        <h2>Tipos de Datos</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Asignación</h3>
+        <h2>Funciones</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Tipos de Datos</h3>
+        <h2>Objetos</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Funciones</h3>
+        <h2>Eventos</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Objetos</h3>
+        <h2>Cadenas</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Eventos</h3>
+        <h2>Números</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Cadenas</h3>
+        <h2>Matrices</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Números</h3>
+        <h2>Fechas</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Matrices</h3>
+        <h2>Matemáticas</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Fechas</h3>
+        <h2>Booleanos</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Matemáticas</h3>
+        <h2>Comparaciones</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Booleanos</h3>
+        <h2>Condiciones</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Comparaciones</h3>
+        <h2>Switch</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Condiciones</h3>
+        <h2>Bucles</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Switch</h3>
+        <h2>Conversión de Tipo</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Bucles</h3>
+        <h2>Bitwise</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Conversión de Tipo</h3>
-        <p>Todo el código de </p>
-    
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
-        </div>
-    </section>
-
-    <section class="textContainer">
-        <h3>Bitwise</h3>
-        <p>Todo el código de </p>
-    
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
-        </div>
-    </section>
-
-    <section class="textContainer">
-        <h3>RegExp</h3>
+        <h2>RegExp</h2>
         <p> de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
-        </div>
-    </section>
-
-    <section class="textContainer">
-        <h3>Errores</h3>
-        <p>Todo el código de </p>
-    
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+       <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+            
+            <div class="code" id="htmlCode">
+            
+            </div>
+            
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+            
+            <div class="resultado">
+            
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Alcance</h3>
+        <h2>Errores</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Elevación</h3>
+        <h2>Alcance</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Modo Estricto</h3>
+        <h2>Elevación</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Palabras Clave</h3>
+        <h2>Modo Estricto</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Let</h3>
+        <h2>Palabras Clave</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Const</h3>
+        <h2>Let</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Depuración</h3>
+        <h2>Const</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Guía de Estilo</h3>
+        <h2>Depuración</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Rendimiento</h3>
+        <h2>Guía de Estilo</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Palabras Reservadas</h3>
+        <h2>Rendimiento</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>Versiones de Javascript</h3>
+        <h2>Palabras Reservadas</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>DOM</h3>
+        <h2>Versiones de Javascript</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>BOM</h3>
+        <h2>DOM</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
+    </section>
+
+    <section class="textContainer">
+        <h2>BOM</h2>
+        <p>Todo el código de </p>
     
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
 
     <section class="textContainer">
-        <h3>AJAX</h3>
+        <h2>AJAX</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
 
     <section class="textContainer">
-        <h3>JSON</h3>
+        <h2>JSON</h2>
         <p>Todo el código de </p>
     
-        <div class="example">
-            <h4>Ejemplo:</h4>
-        </div>
-    
-        <div class="code" id="htmlCode">
-    
-        </div>
-    
-        <div class="result">
-            <h4>Resultado:</h4>
-        </div>
-    
-        <div class="resultado">
-    
+        <div class="multi multiJs">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+        
+            </div>
         </div>
     </section>
+
+    <div class="practica">Practica lo que has aprendido</div>
 
 
     <!-- scripts -->

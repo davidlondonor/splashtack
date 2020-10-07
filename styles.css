@@ -214,43 +214,57 @@ a{
 
 /*practice*/
 .practice{
-    background: #0e2c42;
-    color: #fff;   
+    background: #184a6f;
     width: 100%;
-    margin: auto;
+    color: #fff;
+    
+}
+
+.practice h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.practice p{
+    margin: 20px;
 }
 
 .projectContainer{
+    width: 100%;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
-.projectContainer > div{
-    width: 31.5%;
-    margin: 10px;
-    border-radius: 5px;
-    transition: .5s;
-    text-align: center;
 
-}
-
-.projectContainer > div:hover{
-    transform: translate(-5px, -5px);
-}
 
 .projectContainer h3{
     text-align: center;
-    padding: 10px;
-    color: #ffffff;
+    color: #333;
+    margin: 10px;
+}
+
+
+.projectContainer > div{
+    border-radius: 5px;
+    transition: .5s;
+    margin: 20px 20px;
 }
 
 .project a{
     padding: 10px;
-    display: block;
     transition: .5s;
-
-    
+    display: block;
+    text-align: center;
 }
+
+
+.project a:hover{
+    font-size: 1.1em;
+}
+
+
 
 .htmlAndCssPractice{
     color: #fff;
@@ -259,7 +273,7 @@ a{
 
 .htmlAndCssPractice a:hover{
     background: #ff5c16;
-    color: #333;
+    
 }
 
 .sassPractice{
@@ -268,19 +282,16 @@ a{
 
 .sassPractice a:hover{
     background: #ff81be;
-    color: #333;
 }
 
 .javascriptPractice{
     background: #F0DB4F;
-    color: #333;
     
 }
 
 
 .javascriptPractice a:hover{
     background: #ffe854;
-    color: #333;
 }
 
 .gitPractice{
@@ -289,7 +300,6 @@ a{
 
 .gitPractice a:hover{
     background: #f85838;
-    color: #333;
 }
 
 .typescriptPractice{
@@ -298,7 +308,6 @@ a{
 
 .typescriptPractice a:hover{
     background: #029aff;
-    color: #333;
 }
 
 .reactPractice{
@@ -306,7 +315,6 @@ a{
 }
 
 .reactPractice a:hover{
-    color: #333;
     background:  #5dd2f0;
 }
 
@@ -316,7 +324,6 @@ a{
 
 .angularPractice a:hover{
     background: #c93436;
-    color: #333;
 }
 
 .vuePractice{
@@ -325,7 +332,6 @@ a{
 
 .vuePractice a:hover{
     background: #4edd9d;
-    color: #333;
 }
 
 .phpPractice{
@@ -334,7 +340,6 @@ a{
 
 .phpPractice a:hover{
     background: #9499df;
-    color: #333;
 }
 
 .sqlPractice{
@@ -343,7 +348,6 @@ a{
 
 .sqlPractice a:hover{
     background: #02afff;
-    color: #333;
 }
 
 .nodePractice{
@@ -352,7 +356,6 @@ a{
 
 .nodePractice a:hover{
     background: #7ebe78;
-    color: #333;
 }
 
 
@@ -362,7 +365,6 @@ a{
 
 .mysqlPractice a:hover{
     background: #06b3da;
-    color: #333;
 }
 
 .mongodbPractice{
@@ -371,7 +373,6 @@ a{
 
 .mongodbPractice a:hover{
     background: #56c945;
-    color: #333;
 }
 
 /*practice*/
@@ -823,8 +824,22 @@ tr:nth-child(even) {
 }
 
 .multi h4{
-
     letter-spacing: 1px;
+}
+
+.practica{
+    background: #aa2aca;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 95%;
+    margin: 20px auto;
+    transition: .5s;
+}
+
+.practica:hover{
+    background: #9625b3;
 }
 
 
@@ -837,9 +852,11 @@ tr:nth-child(even) {
 
 
 
+/*animations*/
 
 
 
+/*animations*/
 
 
 
@@ -875,6 +892,7 @@ tr:nth-child(even) {
         width: 100%;
         
     }
+
 
 }
 
