@@ -605,6 +605,7 @@ a{
 .resultado{
     margin-top: 20px;
     background: #fff;
+    border: 1px solid #333;
 }
 
 .resultado img{
@@ -834,6 +835,14 @@ tr:nth-child(even) {
 .multi{
     padding: 10px;
     border-radius: 5px;
+}
+
+.multiHtml{
+    background: #ffb08e;
+}
+
+.multiCss{
+
 }
 
 .multiJs{
