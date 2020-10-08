@@ -98,29 +98,39 @@
         <div class="code" id="htmlCode">
             sass estilos.sass estilos.css --watch
         </div>
-
+        <p>Como puedes observar la bandera de vigilancia --watch te evita tener que compilar sass cada vez que realices cambios, esta bandera se encarga de hacerlo automáticamente por ti. Para dejar de ejecutar la observación puedes presionar en el teclado de tu ordenador la tecla ctrl + c.</p>
     </section>
 
     <section class="textContainer">
         <h2>Variables</h2>
-        <p></p>
-    
+        <p>Con las variables puedes almacenar información que puedes reutilizar a lo largo del flujo del código.</p>
+        <p>Las variables de sass te permiten almacenar datos de cadenas, números, colores, booleanos, listas, y valores nulos.</p>
+        <p>Sass utiliza el símbolo de dólar $ seguido de un nombre para declarar una variable:</p>
+        <div class="code" id="htmlCode">
+            $nombreDeVariable = valor;
+        </div>
+        <p>El siguiente ejemplo declara 4 variables llamadas fuente, color, tamanoDeFuente, ancho, puedes usarlas cuando quieras:</p><br>
         <div class="multi multiSass">
             <div class="example">
                 <h4>Ejemplo:</h4>
             </div>
     
             <div class="code" id="htmlCode">
-    
+                <div class="space">$fuente: Helvetica, sans-serif;</div>
+                <div class="space">$color: red;</div>
+                <div class="space">$tamanoDeFuente: 18px;</div>
+                <div class="space">$ancho: 680px;</div><br>
+                <div class="space">body {</div>
+                <div class="space">font-family: $fuente;</div>
+                <div class="space">font-size: $tamanoDeFuente;</div>
+                <div class="space">color: $color;</div><br>
+                <div class="space">#container {</div>
+                <div class="space">width: $ancho;</div>
+                <div class="space">}</div>
+
             </div>
     
-            <div class="result">
-                <h4>Resultado:</h4>
-            </div>
-    
-            <div class="resultado">
-    
-            </div>
+            
         </div>
     </section>
 
