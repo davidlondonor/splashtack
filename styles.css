@@ -845,6 +845,10 @@ tr:nth-child(even) {
 
 }
 
+.multiSass{
+    background: #ffa9d2;
+}
+
 .multiJs{
     background: #F0DB4F;
 }
