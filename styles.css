@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -35,9 +33,9 @@ header{
     font-size: 1.5em;
 }
 body{
-    font-family: 'Roboto';
+    font-family: Helvetica;
     font-size: 1.3em;
-    
+    line-height: 1.5em;
 }
 
 a{
@@ -649,6 +647,7 @@ a{
 .resultado{
     margin-top: 20px;
     background: #fff;
+    border: 1px solid #333;
 }
 
 .resultado img{
@@ -880,6 +879,18 @@ tr:nth-child(even) {
     border-radius: 5px;
 }
 
+.multiHtml{
+    background: #ffb08e;
+}
+
+.multiCss{
+
+}
+
+.multiSass{
+    background: #ffcfe6;
+}
+
 .multiJs{
     background: #F0DB4F;
 }
@@ -903,13 +914,25 @@ tr:nth-child(even) {
     background: #9625b3;
 }
 
+.div1{
+    background: #a2b9bc;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+}
 
+.div2{
+    background: #b2ad7f;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+}
 
-
-
-
-
-
+.div3{
+    background: #878f99;
+    width: 100%;
+    height: 20px;
+}
 
 
 
@@ -918,15 +941,6 @@ tr:nth-child(even) {
 
 
 /*animations*/
-
-
-
-
-
-
-
-
-
 
 
 

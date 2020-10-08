@@ -18,64 +18,256 @@
     <!-- Scroll Indicator -->
 
     <section class="textContainer">
-        <h2>Introducción</h2>
         <div class="center">
             <img src="images/sass.png" alt="" style="width: 300px; height: 220px">
         </div>
-        <p>HTML es el lenguaje de marcado estándar para crear páginas web.</p>
+        <p><b>Sass</b> es un preprocesador de CSS.</p>
+        <p>Las hojas de estilo son cada vez más grandes, más complejas y más difíciles de mantener. Aquí es donde puede ayudar un preprocesador. Te permite usar funciones que no existen en CSS, como variables, reglas anidadas, mixins, importaciones, herencia, funciones integradas y otras cosas.</p>
+        <br>
+        <div class="multi multiSass">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+        
+            <div class="code" id="htmlCode">
+                <div class="space">/* Define las variables para los colores primarios */</div>
+                <div class="space">$color_1: #a2b9bc;</div>
+                <div class="space">$color_2: #b2ad7f;</div>
+                <div class="space">$color_3: #878f99;</div>
+                <div class="space">/* usa las variables */</div>
+                <div class="space">.div1{</div>
+                <div class="space">background-color: $color_1;</div>
+                <div class="space">}</div>
+                <div class="space">.div2{</div>
+                <div class="space">background-color: $color_2;</div>
+                <div class="space">}</div>
+                <div class="space">.div3{</div>
+                <div class="space">background-color: $color_3;</div>
+                <div class="space">}</div>
+        
+            </div>
+        
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+        
+            <div class="resultado">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+            </div>
+        </div>
+        <br>
+
+        <p>Un navegador no comprende el código de Sass. Por lo tanto, necesitarás un preprocesador de Sass para convertir el código en CSS. Este proceso se llama transpilación.</p>
+        <p>Transpilar es un término para tomar un código fuente escrito en un idioma y traducirlo a otro.</p>
     </section>
 
     <section class="textContainer">
-        <h2>Encabezados</h2>
-        <p>Los encabezados se utilizan para crear los títulos de una página web.</p>
-
-        <div class="example">
-            <h4>Ejemplo:</h4>
+        <h2>Instalación</h2>
+        <p>Hay varias formas de instalar Sass en tu sistema. Una de ellas es con el uso de el gestor de paquetes npm. Para utilizar el gestor de paquetes npm debes instalar nodejs desde la página principal https://nodejs.org/es/</p>
+        <p>Una vez tengas instalado nodejs puedes utilizar el gestor de paquetes npm que viene integrado con nodejs, abre la línea de comandos y escribe el siguiente comando para instalar sass globalmente.</p>
+        <br>
+        <div class="multi multiSass">
+            
+            <div class="code" id="htmlCode">
+                npm install -g sass
+            </div>
+    
+            
         </div>
+    </section>
 
+    <section class="textContainer">
+        <h2>Preprocesamiento</h2>
+        <p>CSS por sí solo puede ser divertido, pero a lo largo del tiempo el proyecto crece al igual que las hojas de estilo son cada vez más grandes, más complejas y más difíciles de manter.</p>
+        <p>Aquí es donde puede ayudar un preprocesador como Sass. Te permite usar funciones que aún no existen en CSS, como
+        variables, anidamiento, mixins, herencia y otras ingeniosas ventajas que hacen que escribir css vuelva a ser divertido.</p>
+        <p>Una vez que empieces a jugar con Sass, tomará tu archivo preprocesado y lo guardará como un archivo css.</p>
+        <ol>
+            <li>Abre tu editor favorito.</li>
+            <li>Ve a menú > archivo > nuevo archivo.</li>
+            <li>Crea un archivo sass llamado estilos con extensión .scss</li>
+            <li>Escribe código sass en tu archivo y luego conviértelo a css para que pueda ser interpretado por el navegador.</li>
+        </ol>
+        <p>Para compilar Sass abre tu consola de comandos y escribe el comando:</p>
         <div class="code" id="htmlCode">
-            <div class="space">
-                <h1>&lt;h1&gt;Encabezado h1&lt;/h1&gt;</h1>
+            sass estilos.sass estilos.css
+        </div>
+        <p>Automáticamente se compilará tu archivo Sass y creará un archivo css con la compilación actual del archivo sass. Este proceso lo tienes que hacer cada vez que quieras compilar tu archivo sass a css, puedes agregar la bandera de vigilancia --watch seguido del comando anterior para observar la compilación todo el tiempo que esté corriendo el observador en la terminal.</p>
+        <div class="code" id="htmlCode">
+            sass estilos.sass estilos.css --watch
+        </div>
+        <p>Como puedes observar la bandera de vigilancia --watch te evita tener que compilar sass cada vez que realices cambios, esta bandera se encarga de hacerlo automáticamente por ti. Para dejar de ejecutar la observación puedes presionar en el teclado de tu ordenador la tecla ctrl + c.</p>
+    </section>
+
+    <section class="textContainer">
+        <h2>Variables</h2>
+        <p>Con las variables puedes almacenar información que puedes reutilizar a lo largo del flujo del código.</p>
+        <p>Las variables de sass te permiten almacenar datos de cadenas, números, colores, booleanos, listas, y valores nulos.</p>
+        <p>Sass utiliza el símbolo de dólar $ seguido de un nombre para declarar una variable:</p>
+        <div class="code" id="htmlCode">
+            $nombreDeVariable = valor;
+        </div>
+        <p>El siguiente ejemplo declara 4 variables llamadas fuente, color, tamanoDeFuente, ancho, puedes usarlas cuando quieras:</p><br>
+        <div class="multi multiSass">
+            <div class="example">
+                <h4>Ejemplo:</h4>
             </div>
-            <div class="space">
-                <h2>&lt;h2&gt;Encabezado h2&lt;/h2&gt;</h2>
+    
+            <div class="code" id="htmlCode">
+                <div class="space">$fuente: Helvetica, sans-serif;</div>
+                <div class="space">$color: red;</div>
+                <div class="space">$tamanoDeFuente: 18px;</div>
+                <div class="space">$ancho: 680px;</div><br>
+                <div class="space">body {</div>
+                <div class="space">font-family: $fuente;</div>
+                <div class="space">font-size: $tamanoDeFuente;</div>
+                <div class="space">color: $color;</div><br>
+                <div class="space">#container {</div>
+                <div class="space">width: $ancho;</div>
+                <div class="space">}</div>
+
             </div>
-            <div class="space">
-                <h3>&lt;h3&gt;Encabezado h3&lt;/h3&gt;</h3>
+    
+            
+        </div>
+    </section>
+
+    <section class="textContainer">
+        <h2>Anidamiento</h2>
+        <p></p>
+    
+        <div class="multi multiSass">
+            <div class="example">
+                <h4>Ejemplo:</h4>
             </div>
-            <div class="space">
-                <h4>&lt;h4&gt;Encabezado h4&lt;/h4&gt;</h4>
+    
+            <div class="code" id="htmlCode">
+    
             </div>
-            <div class="space">
-                <h5>&lt;h5&gt;Encabezado h5&lt;/h5&gt;</h5>
+    
+            <div class="result">
+                <h4>Resultado:</h4>
             </div>
-            <div class="space">
-                <h6>&lt;h6&gt;Encabezado h6&lt;/h6&gt;</h6>
+    
+            <div class="resultado">
+    
             </div>
         </div>
+    </section>
 
-        <div class="result">
-            <h4>Resultado:</h4>
+    <section class="textContainer">
+        <h2>Parciales</h2>
+        <p></p>
+    
+        <div class="multi multiSass">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+    
+            <div class="code" id="htmlCode">
+    
+            </div>
+    
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+    
+            <div class="resultado">
+    
+            </div>
         </div>
+    </section>
 
-        <div class="resultado">
-            <div class="space">
-                <h1>Encabezado h1</h1>
+    <section class="textContainer">
+        <h2>Módulos</h2>
+        <p></p>
+    
+        <div class="multi multiSass">
+            <div class="example">
+                <h4>Ejemplo:</h4>
             </div>
-            <div class="space">
-                <h2>Encabezado h2</h2>
+    
+            <div class="code" id="htmlCode">
+    
             </div>
-            <div class="space">
-                <h3>Encabezado h3</h3>
+    
+            <div class="result">
+                <h4>Resultado:</h4>
             </div>
-            <div class="space">
-                <h4>Encabezado h4</h4>
+    
+            <div class="resultado">
+    
             </div>
-            <div class="space">
-                <h5>Encabezado h5</h5>
+        </div>
+    </section>
+
+    <section class="textContainer">
+        <h2>Mixins</h2>
+        <p></p>
+    
+        <div class="multi multiSass">
+            <div class="example">
+                <h4>Ejemplo:</h4>
             </div>
-            <div class="space">
-                <h6>Encabezado h6</h6>
+    
+            <div class="code" id="htmlCode">
+    
+            </div>
+    
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+    
+            <div class="resultado">
+    
+            </div>
+        </div>
+    </section>
+
+    <section class="textContainer">
+        <h2>Extend / Herencia</h2>
+        <p></p>
+    
+        <div class="multi multiSass">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+    
+            <div class="code" id="htmlCode">
+    
+            </div>
+    
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+    
+            <div class="resultado">
+    
+            </div>
+        </div>
+    </section>
+
+    <section class="textContainer">
+        <h2>Operadores</h2>
+        <p></p>
+    
+        <div class="multi multiSass">
+            <div class="example">
+                <h4>Ejemplo:</h4>
+            </div>
+    
+            <div class="code" id="htmlCode">
+    
+            </div>
+    
+            <div class="result">
+                <h4>Resultado:</h4>
+            </div>
+    
+            <div class="resultado">
+    
             </div>
         </div>
     </section>
