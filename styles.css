@@ -9,10 +9,20 @@
 
 /* header bg changes */
 .navbar{
-    background-color: rgb(59, 24, 105)
+    background-image: linear-gradient(to right,rgb(75, 42, 117),rgb(59, 24, 105));
+    padding: 0%;
 }
 
-
+.banner{
+    background-image: linear-gradient(to right,rgb(75, 42, 117),rgb(59, 24, 105));
+    padding-top: 5%;
+    color: white;
+}
+.banner .promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
 /* Index Footer center aligment*/
 footer{
     text-align: center;
@@ -27,6 +37,7 @@ header{
 body{
     font-family: 'Roboto';
     font-size: 1.3em;
+    
 }
 
 a{
@@ -262,7 +273,40 @@ a{
     margin: 10px;
 }
 
+#sidebar-wrapper{
+    height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 1;
+  left: 0;
+  background-color: rgb(148, 46, 46);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  width: 200px;
+}
 
+#sidebar-wrapper a{
+    padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+#main{
+    margin-left: 220px;
+    margin-right: 20px;
+}
+
+
+
+
+.cursos-header{
+    text-align: center;
+}
 .projectContainer > div{
     border-radius: 5px;
     transition: .5s;
