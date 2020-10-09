@@ -891,6 +891,13 @@ tr:nth-child(even) {
     height: 20px;
 }
 
+.fa-arrow-left{
+    transition: .3s;
+}
+
+.fa-arrow-left:hover {
+    font-size: 1.5em;
+}
 
 
 /*animations*/
