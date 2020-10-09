@@ -7,19 +7,20 @@
 
 /* header bg changes */
 .navbar{
-    background-image: linear-gradient(to right,rgb(75, 42, 117),rgb(59, 24, 105));
+    background-image: linear-gradient(to right,rgb(89, 54, 134),rgb(59, 24, 105));
     padding: 0%;
 }
 
 .banner{
-    background-image: linear-gradient(to right,rgb(75, 42, 117),rgb(59, 24, 105));
-    padding-top: 5%;
+    background-image: linear-gradient(to right,rgb(89, 54, 134),rgb(59, 24, 105));
+    padding-top: 7%;
     color: white;
 }
-.banner .promo-title{
-    font-size: 40px;
-    font-weight: 600;
-    margin-top: 100px;
+.brand{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 50px;
 }
 /* Index Footer center aligment*/
 footer{
