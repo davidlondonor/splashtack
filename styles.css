@@ -5,14 +5,15 @@
     
 }
 
+
 /* header bg changes */
 .navbar{
-    background-image: linear-gradient(to right,rgb(89, 54, 134),rgb(59, 24, 105));
+    background-image: linear-gradient(to right,rgb(77, 23, 148),rgb(89, 54, 134));
     padding: 0%;
 }
 
 .banner{
-    background-image: linear-gradient(to right,rgb(89, 54, 134),rgb(59, 24, 105));
+    background-image: linear-gradient(to right,rgb(77, 23, 148),rgb(89, 54, 134));
     padding-top: 7%;
     color: white;
 }
@@ -22,6 +23,17 @@
     margin-top: 60px;
     margin-bottom: 50px;
 }
+
+.card img{
+    height: 200px;
+    width: 250px;
+    text-align: center;
+}
+
+.card{
+    width: 270px;
+}
+
 /* Index Footer center aligment*/
 footer{
     text-align: center;
@@ -296,7 +308,7 @@ a{
 }
 
 #main{
-    margin-left: 220px;
+    margin-left: 230px;
     margin-right: 20px;
 }
 
