@@ -1,12 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
 /* header bg changes */
+
 .navbar{
     background-image: linear-gradient(to right,rgb(77, 23, 148),rgb(89, 54, 134));
     padding: 0%;
@@ -22,6 +22,31 @@
     font-weight: 400;
     margin-top: 60px;
     margin-bottom: 50px;
+
+.navbar {
+  background-image: linear-gradient(
+    to right,
+    rgb(89, 54, 134),
+    rgb(59, 24, 105)
+  );
+  padding: 0%;
+}
+
+.banner {
+  background-image: linear-gradient(
+    to right,
+    rgb(89, 54, 134),
+    rgb(59, 24, 105)
+  );
+  padding-top: 7%;
+  color: white;
+}
+.brand {
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 60px;
+  margin-bottom: 50px;
+
 }
 
 .card img{
@@ -35,257 +60,248 @@
 }
 
 /* Index Footer center aligment*/
-footer{
-    text-align: center;
+footer {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-header{
-    font-size: 1.3em;
-}
-.navbar-brand{
-    font-size: 1.5em;
-}
-body{
-    font-family: Helvetica;
-    font-size: 1.3em;
-    line-height: 1.5em;
+.rights {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  background-color: rgb(59, 24, 105);
+  color: white;
+  margin: 0;
 }
 
-a{
-    text-decoration: none;
-    color: #fff;
+header {
+  font-size: 1.3em;
+}
+.navbar-brand {
+  font-size: 1.5em;
+}
+body {
+  font-family: Helvetica;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /*scroll-indicator*/
 
 .header {
-    position: fixed;
-    top: 0;
-  
-    width: 100%;
-  
+  position: fixed;
+  top: 0;
+
+  width: 100%;
 }
 
 .header h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .progress-container {
-    width: 100%;
-    height: 5px;
-    background: #333;
-    
+  width: 100%;
+  height: 5px;
+  background: #333;
 }
 
 .progress-bar {
-    height: 5px;
-    width: 0%;
+  height: 5px;
+  width: 0%;
 }
 
-.htmlBar{
-    background: #ff7f48;
+.htmlBar {
+  background: #ff7f48;
 }
 
-.cssBar{
-    background: #5286ff;
+.cssBar {
+  background: #5286ff;
 }
 
-.sassBar{
-    background: #e46ca6;
+.sassBar {
+  background: #e46ca6;
 }
 
-.javascriptBar{
-    background: #fff192;
+.javascriptBar {
+  background: #fff192;
 }
 
-.gitBar{
-    background: #ff6d50;
+.gitBar {
+  background: #ff6d50;
 }
 
-.typescriptBar{
-    background: #0f91e7;
+.typescriptBar {
+  background: #0f91e7;
 }
 
-.reactBar{
-    background: #8ce8ff;    
+.reactBar {
+  background: #8ce8ff;
 }
 
-.angularBar{
-    background: #ca3739;
+.angularBar {
+  background: #ca3739;
 }
 
-.vueBar{
-    background: #4acf94;
+.vueBar {
+  background: #4acf94;
 }
 
-.phpBar{
-    background: #868ac9;
+.phpBar {
+  background: #868ac9;
 }
 
-.sqlBar{
-    background: #00A4EF;
+.sqlBar {
+  background: #00a4ef;
 }
 
-.nodeBar{
-    background: #77b472;
+.nodeBar {
+  background: #77b472;
 }
 
-.mysqlBar{
-    background: #0688a5;
+.mysqlBar {
+  background: #0688a5;
 }
 
-.mongodbBar{
-    background: #5ac749;
+.mongodbBar {
+  background: #5ac749;
 }
 
 /*scroll-indicator*/
 
-
 /*top-panel*/
 
-.top-panel{
-    padding: 20px;
-    background:#103047;
+.top-panel {
+  padding: 20px;
+  background: #103047;
 }
 
-
 /*top-panel*/
 
-
-.swipe{
-    display: flex;
+.swipe {
+  display: flex;
 }
 
 /*courses*/
 
-.courseContainer{
-    background: #103047;
-    color: #fff;
-    width: 20%;
+.courseContainer {
+  background: #103047;
+  color: #fff;
+  width: 20%;
 }
 
-
-
-.courses{
-    background: #0c2435;
+.courses {
+  background: #0c2435;
 }
 
-
-.courses .course a{
-    margin: auto;
-    position: relative;
-    transition: .5s;
-    display: block;
-    text-transform: lowercase;
-    padding: 10px;
+.courses .course a {
+  margin: auto;
+  position: relative;
+  transition: 0.5s;
+  display: block;
+  text-transform: lowercase;
+  padding: 10px;
 }
 
-
-.courses .course a:hover{
-    background:#103047;
-    color: rgb(11, 248, 11) !important;
+.courses .course a:hover {
+  background: #103047;
+  color: rgb(11, 248, 11) !important;
 }
 
-.courses .course.html a{
-    color: #f06529;
+.courses .course.html a {
+  color: #f06529;
 }
 
-.courses .course.css a{
-    color: #2965f1;
-
+.courses .course.css a {
+  color: #2965f1;
 }
 
-.courses .course.sass a{
-    color: #CD6799;
+.courses .course.sass a {
+  color: #cd6799;
 }
 
-.courses .course.javascript a{
-    color: #d1be41;
-
+.courses .course.javascript a {
+  color: #d1be41;
 }
 
-.courses .course.github a{
-    color: #F1502F;
-
+.courses .course.github a {
+  color: #f1502f;
 }
 
-.courses .course.typescript a{
-    color: #007acc;
-
+.courses .course.typescript a {
+  color: #007acc;
 }
 
-.courses .course.react a{
-    color: #61DBFB;
+.courses .course.react a {
+  color: #61dbfb;
 }
 
-.courses .course.angular a{
-    color: #B52E31;
+.courses .course.angular a {
+  color: #b52e31;
 }
 
-.courses .course.vue a{
-    color: #41B883;
+.courses .course.vue a {
+  color: #41b883;
 }
 
-.courses .course.php a{
-    color: #787CB5;
+.courses .course.php a {
+  color: #787cb5;
 }
 
-.courses .course.sql a{
-    color: #00A4EF;
+.courses .course.sql a {
+  color: #00a4ef;
 }
 
-.courses .course.node a{
-    color: #68A063;
+.courses .course.node a {
+  color: #68a063;
 }
 
-.courses .course.mysql a{
-    color: #00758F;
+.courses .course.mysql a {
+  color: #00758f;
 }
 
-.courses .course.mongodb a{
-    color: #4DB33D;
+.courses .course.mongodb a {
+  color: #4db33d;
 }
-
 
 /*courses*/
-
-
 
 /*practice*/
-.practice{
-    background: #184a6f;
-    width: 100%;
-    color: #fff;
-    
+.practice {
+  background: #184a6f;
+  width: 100%;
+  color: #fff;
 }
 
-.practice h1{
-    text-align: center;
-    margin: 20px;
+.practice h1 {
+  text-align: center;
+  margin: 20px;
 }
 
-.practice p{
-    margin: 20px;
+.practice p {
+  margin: 20px;
 }
 
-.projectContainer{
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    
+.projectContainer {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-
-
-.projectContainer h3{
-    text-align: center;
-    color: #333;
-    margin: 10px;
+.projectContainer h3 {
+  text-align: center;
+  color: #333;
+  margin: 10px;
 }
 
-#sidebar-wrapper{
-    height: 100%;
+#sidebar-wrapper {
+  height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -298,8 +314,8 @@ a{
   width: 200px;
 }
 
-#sidebar-wrapper a{
-    padding: 8px 8px 8px 32px;
+#sidebar-wrapper a {
+  padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 20px;
   color: #818181;
@@ -307,538 +323,499 @@ a{
   transition: 0.3s;
 }
 
+
 #main{
     margin-left: 230px;
     margin-right: 20px;
+
+
+.cursos-header {
+  text-align: center;
+}
+.projectContainer > div {
+  border-radius: 5px;
+  transition: 0.5s;
+  margin: 20px 20px;
 }
 
-
-
-
-.cursos-header{
-    text-align: center;
-}
-.projectContainer > div{
-    border-radius: 5px;
-    transition: .5s;
-    margin: 20px 20px;
+.project a {
+  padding: 10px;
+  transition: 0.5s;
+  display: block;
+  text-align: center;
 }
 
-.project a{
-    padding: 10px;
-    transition: .5s;
-    display: block;
-    text-align: center;
+.project a:hover {
+  font-size: 1.1em;
 }
 
-
-.project a:hover{
-    font-size: 1.1em;
+.htmlAndCssPractice {
+  color: #fff;
+  background: #f15614;
 }
 
-
-
-.htmlAndCssPractice{
-    color: #fff;
-    background: #f15614;
+.htmlAndCssPractice a:hover {
+  background: #ff5c16;
 }
 
-.htmlAndCssPractice a:hover{
-    background: #ff5c16;
-    
+.sassPractice {
+  background: #cd6799;
 }
 
-.sassPractice{
-    background: #CD6799;
+.sassPractice a:hover {
+  background: #ff81be;
 }
 
-.sassPractice a:hover{
-    background: #ff81be;
+.javascriptPractice {
+  background: #f0db4f;
 }
 
-.javascriptPractice{
-    background: #F0DB4F;
-    
+.javascriptPractice a:hover {
+  background: #ffe854;
 }
 
-
-.javascriptPractice a:hover{
-    background: #ffe854;
+.gitPractice {
+  background: #f1502f;
 }
 
-.gitPractice{
-    background: #F1502F;
+.gitPractice a:hover {
+  background: #f85838;
 }
 
-.gitPractice a:hover{
-    background: #f85838;
+.typescriptPractice {
+  background: #007acc;
 }
 
-.typescriptPractice{
-    background: #007acc;
+.typescriptPractice a:hover {
+  background: #029aff;
 }
 
-.typescriptPractice a:hover{
-    background: #029aff;
+.reactPractice {
+  background: #61dbfb;
 }
 
-.reactPractice{
-    background: #61DBFB;
+.reactPractice a:hover {
+  background: #5dd2f0;
 }
 
-.reactPractice a:hover{
-    background:  #5dd2f0;
+.angularPractice {
+  background: #b52e31;
 }
 
-.angularPractice{
-    background: #B52E31;
+.angularPractice a:hover {
+  background: #c93436;
 }
 
-.angularPractice a:hover{
-    background: #c93436;
+.vuePractice {
+  background: #41b883;
 }
 
-.vuePractice{
-    background: #41B883;
+.vuePractice a:hover {
+  background: #4edd9d;
 }
 
-.vuePractice a:hover{
-    background: #4edd9d;
+.phpPractice {
+  background: #787cb5;
 }
 
-.phpPractice{
-    background: #787CB5;
+.phpPractice a:hover {
+  background: #9499df;
 }
 
-.phpPractice a:hover{
-    background: #9499df;
+.sqlPractice {
+  background: #00a4ef;
 }
 
-.sqlPractice{
-    background: #00A4EF;
+.sqlPractice a:hover {
+  background: #02afff;
 }
 
-.sqlPractice a:hover{
-    background: #02afff;
+.nodePractice {
+  background: #68a063;
 }
 
-.nodePractice{
-    background: #68A063;
+.nodePractice a:hover {
+  background: #7ebe78;
 }
 
-.nodePractice a:hover{
-    background: #7ebe78;
+.mysqlPractice {
+  background: #00758f;
 }
 
-
-.mysqlPractice{
-    background: #00758F;
+.mysqlPractice a:hover {
+  background: #06b3da;
 }
 
-.mysqlPractice a:hover{
-    background: #06b3da;
+.mongodbPractice {
+  background: #4db33d;
 }
 
-.mongodbPractice{
-    background: #4DB33D;
-}
-
-.mongodbPractice a:hover{
-    background: #56c945;
+.mongodbPractice a:hover {
+  background: #56c945;
 }
 
 /*practice*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*htmlCourse*/
 
-#html{
-    background: #f06529;
+#html {
+  background: #f06529;
 }
 
 /*htmlCourse*/
 
-
 /*cssCourse*/
 
-#css{
-    background: #2965f1;
+#css {
+  background: #2965f1;
 }
 
 /*cssCourse*/
 
 /*sassCourse*/
 
-#sass{
-    background: #CD6799;
+#sass {
+  background: #cd6799;
 }
 
 /*sassCourse*/
 
-
 /*javascriptCourse*/
 
-#javascript{
-    background: #ffe958;
+#javascript {
+  background: #ffe958;
 }
 
 /*javascriptCourse*/
 
-
 /*gitCourse*/
 
-#git{
-    background: #F1502F;
+#git {
+  background: #f1502f;
 }
 
 /*gitCourse*/
-
 
 /*typescriptCourse*/
 
-#typescript{
-    background: #007acc;
+#typescript {
+  background: #007acc;
 }
 
 /*typescriptCourse*/
 
 /*reactCourse*/
 
-#react{
-    background: #61DBFB;
+#react {
+  background: #61dbfb;
 }
 
 /*reactCourse*/
 
 /*angularCourse*/
 
-#angular{
-    background: #B52E31;
-}   
+#angular {
+  background: #b52e31;
+}
 
 /*angularCourse*/
 
 /*vueCourse*/
 
-#vue{
-    background: #41B883;
+#vue {
+  background: #41b883;
 }
 
 /*vueCourse*/
 
 /*phpCourse*/
 
-#php{
-    background: #787CB5;
+#php {
+  background: #787cb5;
 }
 
 /*phpCourse*/
 
-
 /*sqlCourse*/
 
-#sql{
-    background: #00A4EF;
+#sql {
+  background: #00a4ef;
 }
 
 /*sqlCourse*/
 
 /*nodeCourse*/
 
-#node{
-    background: #68A063;
+#node {
+  background: #68a063;
 }
 
 /*nodeCourse*/
 
 /*mysqlCourse*/
 
-#mysql{
-    background: #00758F;
+#mysql {
+  background: #00758f;
 }
 
 /*mysqlCourse*/
 
 /*mongodbCourse*/
 
-#mongodb{
-    background: #4DB33D;
+#mongodb {
+  background: #4db33d;
 }
 
 /*mongodbCourse*/
 
+/*textContainer*/
 
+.textContainer {
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+}
 
+.textContainer .center {
+  width: 100%;
+}
+
+.textContainer img {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.textContainer h1,
+.textContainer h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.textContainer p {
+  text-align: justify;
+  padding: 10px 0px;
+}
+
+.textContainer ul,
+.textContainer ol {
+  margin: 0px 20px;
+}
+
+.textContainer ul li,
+.textContainer ol li {
+  margin: 10px 0px;
+}
 
 /*textContainer*/
 
-.textContainer{
-    background: #fff;
-    border-radius: 5px;
-    width: 60%;
-    margin: 20px auto;
-    padding: 20px;
+.code {
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  margin: 20px 0px;
+  padding: 10px;
+  cursor: pointer;
+  overflow: auto;
 }
 
-.textContainer .center{
-    width: 100%;
+.code p {
+  text-align: left;
+  padding: 5px;
 }
 
-.textContainer img{
-    width: 250px;
-    height: 250px;
-    display: block;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.textContainer h1, .textContainer h2{
-    text-align: center;
-    margin: 20px;
-}
-
-.textContainer p{
-    text-align: justify;
-    padding: 10px 0px;
-}
-
-.textContainer ul, .textContainer ol{
-    margin: 0px 20px;
-}
-
-.textContainer ul li, .textContainer ol li{
-    margin: 10px 0px;
-}
-
-
-
-/*textContainer*/
-
-.code{
-    background: #333;
-    color: #fff;
-    border-radius: 5px;
-    margin: 20px 0px;
-    padding: 10px;
-    cursor: pointer;
-    overflow: auto;
-}
-
-.code p{
-    text-align: left;
-    padding: 5px;
-}
-
-
-
-.code h1, .code h2, .code h3, .code h4, .code h5, code h6{
-    margin: 0px;
-    text-align: left;
+.code h1,
+.code h2,
+.code h3,
+.code h4,
+.code h5,
+code h6 {
+  margin: 0px;
+  text-align: left;
 }
 
 /*resultado*/
 
-.resultado{
-    margin-top: 20px;
-    background: #fff;
-    border: 1px solid #333;
+.resultado {
+  margin-top: 20px;
+  background: #fff;
+  border: 1px solid #333;
 }
 
-.resultado img{
-    width: 100%;
-    height: 350px;
-    padding: 0;
-    margin: 0;
+.resultado img {
+  width: 100%;
+  height: 350px;
+  padding: 0;
+  margin: 0;
 }
 
-.resultado h1, .resultado h2, .resultado h3, .resultado h4, .resultado h5{
-    margin: 0px;
-    text-align: left;
+.resultado h1,
+.resultado h2,
+.resultado h3,
+.resultado h4,
+.resultado h5 {
+  margin: 0px;
+  text-align: left;
 }
 
-
-.resultado{
-    padding: 10px;
-    border-radius: 5px;
-    
+.resultado {
+  padding: 10px;
+  border-radius: 5px;
 }
-
 
 /*resultado*/
 
-
-.space{
-   margin-bottom: 5px;
+.space {
+  margin-bottom: 5px;
 }
-
-
 
 /*colores*/
 
 /*paleta de colores en uso:*/
 
-.tomato{
-    background: tomato;
+.tomato {
+  background: tomato;
 }
 
-.orange{
-    background: orange;
+.orange {
+  background: orange;
 }
 
-.dodgerblue{
-    background: dodgerblue;
+.dodgerblue {
+  background: dodgerblue;
 }
 
-.mediumseagreen{
-    background: mediumseagreen;
+.mediumseagreen {
+  background: mediumseagreen;
 }
 
-.gray{
-    background: gray;
+.gray {
+  background: gray;
 }
 
-.rojoRgb{
-    background: rgb(255, 0, 0);
+.rojoRgb {
+  background: rgb(255, 0, 0);
 }
 
-.azulRgb{
-    background: rgb(0, 0, 255);
+.azulRgb {
+  background: rgb(0, 0, 255);
 }
 
-.verdeRgb{
-    background: rgb(60, 179, 113);
+.verdeRgb {
+  background: rgb(60, 179, 113);
 }
 
-.violetaRgb{
-    background: rgb(238, 130, 238);
+.violetaRgb {
+  background: rgb(238, 130, 238);
 }
 
-.naranjaRgb{
-    background: rgb(255, 165, 0);
+.naranjaRgb {
+  background: rgb(255, 165, 0);
 }
 
-.rojoHex{
-    background: #ff0000;
+.rojoHex {
+  background: #ff0000;
 }
 
-.azulHex{
-    background: #0000ff;
+.azulHex {
+  background: #0000ff;
 }
 
-.verdeHex{
-    background: #3cb371;
+.verdeHex {
+  background: #3cb371;
 }
 
-.violetaHex{
-    background: #ee82ee;
+.violetaHex {
+  background: #ee82ee;
 }
 
-.naranjaHex{
-    background: #ffa500;
+.naranjaHex {
+  background: #ffa500;
 }
 
-.rojoHsl{
-    background: hsl(0, 100%, 50%);
+.rojoHsl {
+  background: hsl(0, 100%, 50%);
 }
 
-.azulHsl{
-    background: hsl(240, 100%, 50%)
+.azulHsl {
+  background: hsl(240, 100%, 50%);
 }
 
-.verdeHsl{
-    background: hsl(147, 50%, 47%)
+.verdeHsl {
+  background: hsl(147, 50%, 47%);
 }
 
-.violetaHsl{
-    background: hsl(300, 76%, 72%)
+.violetaHsl {
+  background: hsl(300, 76%, 72%);
 }
 
-.naranjaHsl{
-    background: hsl(39, 100%, 50%)
+.naranjaHsl {
+  background: hsl(39, 100%, 50%);
 }
 
-.center{
-    margin: 20px auto;
+.center {
+  margin: 20px auto;
 }
 
-.image{
-    
-    width: 100%;
+.image {
+  width: 100%;
 }
 
-.elemento1{
-    color: red;
+.elemento1 {
+  color: red;
 }
 
-.elemento2{
-    color: #fff;
-    background: blue;
-    padding: 10px;
-    border-radius: 5px;
-    width: 150px;
+.elemento2 {
+  color: #fff;
+  background: blue;
+  padding: 10px;
+  border-radius: 5px;
+  width: 150px;
 }
 
-.elemento3{
-    color: violet;
+.elemento3 {
+  color: violet;
 }
 
-.elemento4{
-    font-size: 50px;
+.elemento4 {
+  font-size: 50px;
 }
 
-.elemento5{
-    text-decoration: line-through;
+.elemento5 {
+  text-decoration: line-through;
 }
-
-
 
 /*colores*/
 
-
-
 /*enlace*/
 
-.enlace{
-    color:#0000EE;
-    text-decoration: underline;
+.enlace {
+  color: #0000ee;
+  text-decoration: underline;
 }
 
 /*enlace*/
 
 /*tablas*/
 
-table{
-    width: 100%;
+table {
+  width: 100%;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #f0aa29;
   padding: 8px;
-  transition: .5s;
+  transition: 0.5s;
   cursor: pointer;
 }
 
-td:hover{
-  background:#f0aa29;
+td:hover {
+  background: #f0aa29;
 }
 
 tr:nth-child(even) {
@@ -847,148 +824,131 @@ tr:nth-child(even) {
 
 /*tablas*/
 
-
-.londres{
-    background: #02ff4e;
-    
+.londres {
+  background: #02ff4e;
 }
 
-.paris{
-    background: #0252ff;
-    color: #fff;
+.paris {
+  background: #0252ff;
+  color: #fff;
 }
 
-.tokio{
-    background: #ff029e;
-    color: #fff;
+.tokio {
+  background: #ff029e;
+  color: #fff;
 }
 
-.pequeno{
-    font-size: .8em;
+.pequeno {
+  font-size: 0.8em;
 }
 
-.mediano{
-    font-size: 1.3em;
+.mediano {
+  font-size: 1.3em;
 }
 
-.grande{
-    font-size: 2em;
+.grande {
+  font-size: 2em;
 }
 
-#titulo{
-    background: skyblue;
-    padding: 10px;
-    text-align: center;
+#titulo {
+  background: skyblue;
+  padding: 10px;
+  text-align: center;
 }
 
-#parrafo{
-    padding: 0;
-    color: skyblue;
-    background: black;
+#parrafo {
+  padding: 0;
+  color: skyblue;
+  background: black;
 }
 
-.multi{
-    padding: 10px;
-    border-radius: 5px;
+.multi {
+  padding: 10px;
+  border-radius: 5px;
 }
 
-.multiHtml{
-    background: #ffb08e;
+.multiHtml {
+  background: #ffb08e;
 }
 
-.multiCss{
-
+.multiCss {
 }
 
-.multiSass{
-    background: #ffcfe6;
+.multiSass {
+  background: #ffcfe6;
 }
 
-.multiJs{
-    background: #F0DB4F;
+.multiJs {
+  background: #f0db4f;
 }
 
-.multi h4{
-    letter-spacing: 1px;
+.multi h4 {
+  letter-spacing: 1px;
 }
 
-.practica{
-    background: #aa2aca;
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 95%;
-    margin: 20px auto;
-    transition: .5s;
+.practica {
+  background: #aa2aca;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 95%;
+  margin: 20px auto;
+  transition: 0.5s;
 }
 
-.practica:hover{
-    background: #9625b3;
+.practica:hover {
+  background: #9625b3;
 }
 
-.div1{
-    background: #a2b9bc;
-    width: 100%;
-    height: 20px;
-    margin-bottom: 10px;
+.div1 {
+  background: #a2b9bc;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 10px;
 }
 
-.div2{
-    background: #b2ad7f;
-    width: 100%;
-    height: 20px;
-    margin-bottom: 10px;
+.div2 {
+  background: #b2ad7f;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 10px;
 }
 
-.div3{
-    background: #878f99;
-    width: 100%;
-    height: 20px;
+.div3 {
+  background: #878f99;
+  width: 100%;
+  height: 20px;
 }
 
-.fa-arrow-left{
-    transition: .3s;
+.fa-arrow-left {
+  transition: 0.3s;
 }
 
 .fa-arrow-left:hover {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
-
 /*animations*/
 
-
-
 /*animations*/
-
-
-
 
 /*responsive*/
 
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 1em;
+  }
 
-@media only screen and ( max-width: 768px ){ 
+  .textContainer {
+    width: 95%;
+  }
 
-    body{
-        font-size: 1em;
-    }
+  .resultado img {
+    height: 100%;
+  }
 
-
-    .textContainer{
-        width: 95%;
-    }
-
-    .resultado img{
-        height: 100%;
-    }
-
-    .projectContainer > div{
-        width: 100%;
-        
-    }
-
-
+  .projectContainer > div {
+    width: 100%;
+  }
 }
-
-

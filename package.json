@@ -1,0 +1,25 @@
+{
+  "name": "splashtack",
+  "version": "1.0.0",
+  "description": "Simplificamos aprender y practicar desarrollo web.",
+  "main": "pruebas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hernandoabella/splashtack.git"
+  },
+  "author": "Hernando Abella",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hernandoabella/splashtack/issues"
+  },
+  "homepage": "https://github.com/hernandoabella/splashtack#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
