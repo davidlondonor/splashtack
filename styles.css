@@ -4,7 +4,25 @@
   box-sizing: border-box;
 }
 
+
 /* header bg changes */
+
+.navbar{
+    background-image: linear-gradient(to right,rgb(77, 23, 148),rgb(89, 54, 134));
+    padding: 0%;
+}
+
+.banner{
+    background-image: linear-gradient(to right,rgb(77, 23, 148),rgb(89, 54, 134));
+    padding-top: 7%;
+    color: white;
+}
+.brand{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 50px;
+
 .navbar {
   background-image: linear-gradient(
     to right,
@@ -28,7 +46,19 @@
   font-weight: 400;
   margin-top: 60px;
   margin-bottom: 50px;
+
 }
+
+.card img{
+    height: 200px;
+    width: 250px;
+    text-align: center;
+}
+
+.card{
+    width: 270px;
+}
+
 /* Index Footer center aligment*/
 footer {
   margin: 0;
@@ -293,10 +323,11 @@ a {
   transition: 0.3s;
 }
 
-#main {
-  margin-left: 220px;
-  margin-right: 20px;
-}
+
+#main{
+    margin-left: 230px;
+    margin-right: 20px;
+
 
 .cursos-header {
   text-align: center;
