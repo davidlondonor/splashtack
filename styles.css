@@ -851,10 +851,6 @@ tr:nth-child(even) {
   background: #f0db4f;
 }
 
-.multi h4 {
-  letter-spacing: 1px;
-}
-
 .practica {
   background: #aa2aca;
   color: #fff;
@@ -900,7 +896,7 @@ tr:nth-child(even) {
 
 .fa-arrow-left:hover {
   color: rgb(0, 255, 0);
-  background: #007acc;
+  background: #2c3d86;
 }
 
 .navbar {
@@ -976,9 +972,10 @@ tr:nth-child(even) {
   text-decoration: none;
   color: #fff;
 }
+
 #sidebar ul li a:hover {
-  color: #2c3d86;
-  background: #fff;
+  background: #2c3d86;
+  color: rgb(0, 255, 0);
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
