@@ -900,11 +900,9 @@ tr:nth-child(even) {
 }
 
 .navbar {
-  padding: 15px 10px;
   background: #fff;
   border: none;
   border-radius: 0;
-  margin-bottom: 40px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
@@ -947,11 +945,6 @@ tr:nth-child(even) {
 #sidebar.active {
   margin-left: -250px;
   transform: rotateY(100deg);
-}
-
-#sidebar .sidebar-header {
-  padding: 10px;
-  background: #2c3d86;
 }
 
 #sidebar ul.components {
