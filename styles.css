@@ -1171,7 +1171,7 @@ a.article, a.article:hover {
 }
 
 .card.is-inactive:hover .card__inner {
-  background-color: #949fb0;
+  background-color: #6582aa;
   transform: scale(1);
 }
 
