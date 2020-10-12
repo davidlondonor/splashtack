@@ -1069,6 +1069,107 @@ a.article, a.article:hover {
 }
 
 
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 15px;
+}
+
+.card {
+  margin: 15px;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+
+.card__inner {
+  background-color: #949fb0;
+  color: #eceef1;
+  cursor: pointer;
+  font-size: 1.5em;
+  padding: 30px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+.card__inner:after {
+  transition: all 0.3s ease-in-out;
+}
+.card__expander {
+  align-items: center;
+  background-color: #333a45;
+  color: #eceef1;
+  display: flex;
+  font-size: 1.5em;
+  justify-content: center;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+.card__expander .fa {
+  font-size: 0.75em;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.card__expander .fa:hover {
+  opacity: 0.9;
+}
+.card.is-collapsed .card__inner:after {
+  content: "";
+  opacity: 0;
+}
+.card.is-collapsed .card__expander {
+  opacity: 0;
+  overflow: hidden;
+  margin-top: 0;
+  max-height: 0;
+  min-height: 0;
+}
+.card.is-expanded .card__inner {
+  background-color: #1abc9c;
+}
+.card.is-expanded .card__inner:after {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #333a45;
+  bottom: -30px;
+  content: "";
+  display: block;
+  height: 0;
+  left: calc(50% - 15px);
+  opacity: 1;
+  position: absolute;
+  width: 0;
+}
+.card.is-expanded .card__expander {
+  margin-top: 30px;
+  max-height: 1000px;
+  min-height: 200px;
+  opacity: 1;
+  overflow: visible;
+}
+.card.is-expanded:hover .card__inner {
+  transform: scale(1);
+}
+.card.is-inactive .card__inner {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.card.is-inactive:hover .card__inner {
+  background-color: #949fb0;
+  transform: scale(1);
+}
+
+
+
+
+
+
+
 /*animations*/
 
 /*animations*/

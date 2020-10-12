@@ -30,3 +30,37 @@ function closeSideDrawer() {
   document.getElementById("side-drawer-void").classList.add("d-none");
   document.getElementById("side-drawer-void").classList.remove("d-block");
 }
+
+
+
+//cards
+
+let $cards = $('.card');
+
+//open and close card when clicked on card
+$cards.find('.js-expander').click(function () {
+  let $thisCard = $(this).closest('.card');
+
+  if ($thisCard.hasClass('is-collapsed')) {
+    $cards.not($thisCard).removeClass('is-expanded').addClass('is-collapsed').addClass('is-inactive');
+    $thisCard.removeClass('is-collapsed').addClass('is-expanded');
+
+    if ($cards.not($thisCard).hasClass('is-inactive')) {
+      //do nothing
+    } else {
+      $cards.not($thisCard).addClass('is-inactive');
+    }
+
+  } else {
+    $thisCard.removeClass('is-expanded').addClass('is-collapsed');
+    $cards.not($thisCard).removeClass('is-inactive');
+  }
+});
+
+//close card when click on cross
+$cards.find('.js-collapser').click(function () {
+  let $thisCard = $(this).closest('.card');
+
+  $thisCard.removeClass('is-expanded').addClass('is-collapsed');
+  $cards.not($thisCard).removeClass('is-inactive');
+});
