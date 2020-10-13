@@ -900,10 +900,9 @@ tr:nth-child(even) {
 }
 
 .navbar {
-  background: rgb(29, 167, 121);
+  background:#2c3d86;
   border: none;
   border-radius: 0;
-  box-shadow: 1px 1px 3px rgba(255, 3, 3);
 }
 
 .navbar-btn {
@@ -1079,7 +1078,7 @@ a.article, a.article:hover {
 }
 
 .card__inner {
-  background-color: #3661a1;
+  background-color: #2bcf83;
   color: #eceef1;
   cursor: pointer;
   font-size: 1.5em;
@@ -1089,6 +1088,7 @@ a.article, a.article:hover {
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
   width: 100%;
+  border-radius: 5px;
 }
 
 .card__inner:after {
@@ -1106,6 +1106,7 @@ a.article, a.article:hover {
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
   width: 100%;
+  border-radius: 5px;
 }
 
 .card__expander .fa {
@@ -1134,7 +1135,7 @@ a.article, a.article:hover {
 }
 
 .card.is-expanded .card__inner {
-  background-color: #1abc9c;
+  background-color: #5e8ce0;
 }
 
 .card.is-expanded .card__inner:after {
