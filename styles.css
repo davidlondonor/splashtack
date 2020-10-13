@@ -900,10 +900,10 @@ tr:nth-child(even) {
 }
 
 .navbar {
-  background: #fff;
+  background: rgb(29, 167, 121);
   border: none;
   border-radius: 0;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 3px rgba(255, 3, 3);
 }
 
 .navbar-btn {
@@ -915,7 +915,7 @@ tr:nth-child(even) {
 .line {
   width: 100%;
   height: 1px;
-  border-bottom: 1px dashed #ddd;
+  border-bottom: 1px dashed rgb(207, 24, 24);
   margin: 40px 0;
 }
 
@@ -939,7 +939,6 @@ tr:nth-child(even) {
   transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
   transform-origin: bottom left;
 }
-
 
 
 #sidebar.active {
@@ -1024,7 +1023,6 @@ a.article, a.article:hover {
 ----------------------------------------------------- */
 #content {
   width: 100%;
-  
   min-height: 100vh;
   transition: all 0.3s;
 }
@@ -1032,8 +1030,8 @@ a.article, a.article:hover {
 #sidebarCollapse {
   width: 40px;
   height: 40px;
-  background: #f5f5f5;
   cursor: pointer;
+  transition: .5s;
 }
 
 #sidebarCollapse span {
@@ -1041,7 +1039,7 @@ a.article, a.article:hover {
   height: 2px;
   margin: 0 auto;
   display: block;
-  background: #555;
+  background: rgb(0, 0, 0);
   transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
   transition-delay: 0.2s;
 }
@@ -1174,6 +1172,40 @@ a.article, a.article:hover {
   background-color: #6582aa;
   transform: scale(1);
 }
+
+.gree{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
