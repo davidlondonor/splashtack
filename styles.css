@@ -1095,6 +1095,8 @@ a.article, a.article:hover {
   transition: all 0.2s ease-in-out;
   width: 100%;
   border-radius: 5px;
+  width: 60%;
+  margin: auto;
 }
 
 .card__inner:after {
@@ -1192,6 +1194,7 @@ a.article, a.article:hover {
 .ula > ul li{
   text-decoration: none;
   list-style-type: none;
+  transition: .5s;
 } 
 
 .ula > ul li a{
@@ -1201,7 +1204,6 @@ a.article, a.article:hover {
   padding: 10px;
   margin-bottom: 10px;
   display: block;
-  border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
   text-transform: none;
   text-align: center;
