@@ -1007,7 +1007,7 @@ ul.CTAs a {
 
 a.download {
   background: #fff;
-  color: #7386D5;
+  color: #384faa;
 }
 
 a.article, a.article:hover {
@@ -1031,6 +1031,12 @@ a.article, a.article:hover {
   height: 40px;
   cursor: pointer;
   transition: .5s;
+  border-radius: 5px;
+  background: #0b2644;
+}
+
+#sidebarCollapse:hover{
+  background: rgb(0, 0, 0);
 }
 
 #sidebarCollapse span {
@@ -1038,7 +1044,7 @@ a.article, a.article:hover {
   height: 2px;
   margin: 0 auto;
   display: block;
-  background: rgb(0, 0, 0);
+  background: rgb(0, 255, 0);
   transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
   transition-delay: 0.2s;
 }
@@ -1097,7 +1103,7 @@ a.article, a.article:hover {
 
 .card__expander {
   align-items: center;
-  background-color: #333a45;
+  background-color: rgb(0, 255, 0);
   color: #eceef1;
   display: flex;
   font-size: 1.5em;
@@ -1135,13 +1141,13 @@ a.article, a.article:hover {
 }
 
 .card.is-expanded .card__inner {
-  background-color: #5e8ce0;
+  background-color: rgb(0, 255, 0);
 }
 
 .card.is-expanded .card__inner:after {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-bottom: 15px solid #333a45;
+  border-bottom: 15px solid  rgb(0, 255, 0);
   bottom: -30px;
   content: "";
   display: block;
@@ -1178,8 +1184,33 @@ a.article, a.article:hover {
   text-align: center;
 }
 
+.ula{
+  margin: 50px;
+  width: 100%;
+}
 
+.ula > ul li{
+  text-decoration: none;
+  list-style-type: none;
+} 
 
+.ula > ul li a{
+  transition: .5s;
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  text-transform: none;
+  text-align: center;
+}
+
+.ula > ul li a:hover{
+  background: #000;
+  color: rgb(0, 255, 0);
+}
 
 
 
